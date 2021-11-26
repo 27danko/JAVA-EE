@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      
+    <title>text-stats</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="home.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&family=Montserrat:ital,wght@1,700&display=swap');
+        </style>
+       
+</head>
+<body onload="checkFileAPI();">
+    <div id="container">  
+    
+        <div class="labelbtn">
+        <label for="image_uploads">Open</label>
+        </div>
+        <input type="file" id="image_uploads" onchange='readText(this)' value="Open" />
+        <br/>
+        <hr/>   
+        <div class="textcont">
+        <h3>your text</h3>
+        <textarea rows="10" cols="50" id="main"></textarea>
+        
+        <div id="textfile" >
+            
+        </div>
+        <div id="textfile2" >
+            
+        </div>
+        <div id="textfile3" >
+            
+        </div>
+        <button class="btn"onclick="getStats()" >Stats</button>
+        
+        
+        
+        </div>
+    </div>
+    
+   
+   
+</body>
+</html>
