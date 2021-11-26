@@ -1,0 +1,156 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.container {
+  font-size: 0;
+  padding: 50px 50px 15px;
+}
+
+.element-1,
+.element-2,
+.element-3{
+  display: inline-block;
+  width: 400px;
+  height: 600px;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 30px;
+  vertical-align: bottom;
+  border-radius: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  box-shadow: 0 0 10px rgba(30, 215, 96);
+  background-color: #1DB954;
+  
+}
+.element-4{
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 30px;
+  vertical-align: bottom;
+  border-radius: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  box-shadow: 0 0 10px rgba(30, 215, 96);
+  background-color: #1DB954;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #222;
+  background: #191414; 
+}
+
+main {
+  max-width: 2000px;
+}
+
+.input-group {
+  margin: 1rem;
+}
+
+.list-group {
+  min-height: 100px;
+  height: 100%;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+div + div {
+  border-right: 1px dotted #222;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+   
+}
+
+p {
+  margin: 0;
+}
+
+.completed p {
+  text-decoration: line-through;
+}
+
+.in-progress p {
+  border-bottom: 1px dashed #222;
+}
+
+.drop {
+  background: linear-gradient(#eee, transparent);
+  border-radius: 4px;
+}
+.liststud{
+  border-radius: 25px;
+  background-color: #212121;
+  margin-right: 25px;
+  margin-left: 25px;
+  padding-top: 30px;
+    margin-bottom: 50px;
+    border-bottom-width: 25px;
+    padding-bottom: 25px;
+    color:#fff
+}
+button{
+  margin-left: 10px;
+}
+.form-control{
+  color: #fff;
+  padding:10px;
+  border-radius:25px;
+  border-color: transparent;
+  background-color: #535353;
+  margin-top: 50px;
+  
+
+}
+button.btn.btn-success{
+  color: #fff;
+  background-color: #1DB954;
+  position: relative;
+  padding:10px;
+  border-radius:25px;
+ border-color: transparent;
+  margin-left: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  box-shadow: 0 0 10px rgba(30, 215, 96);
+
+
+}
+button.btn.btn-outline-danger{
+  border-color: transparent;
+  color: #fff;
+  border-radius:10px;
+  background-color: #535353;
+}
+.slit{
+  float: right;
+  
+  
+}
